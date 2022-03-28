@@ -1,7 +1,7 @@
 # ubuntu-wsl2-systemd-script
 
 These are scripts to add proper **systemd support** on **Ubuntu images of WSL2**.
-Forked from [the archived repo](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) of DamionGans for better adaptation.
+Forked from [the archived repo](https://github.com/FiestaLake/ubuntu-wsl2-systemd-script.git) of DamionGans for better adaptation.
 
 From [the snapcraft forum](https://forum.snapcraft.io/t/running-snaps-on-wsl2-insiders-only-for-now/13033).
 Thanks to [Daniel](https://forum.snapcraft.io/u/daniel) on the Snapcraft forum! 
@@ -23,7 +23,7 @@ sudo apt install git
 
 ### Installation
 ```sh
-git clone https://github.com/FiestaLake/ubuntu-wsl2-systemd-script.git ~/ubuntu-wsl2-systemd-script
+git clone https://github.com/Tyler-Laskey/ubuntu-wsl2-systemd-script.git ~/ubuntu-wsl2-systemd-script
 cd ~/ubuntu-wsl2-systemd-script
 bash install.sh (--force) (--no-wslg)
 
